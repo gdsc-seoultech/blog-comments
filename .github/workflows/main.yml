@@ -10,7 +10,7 @@ jobs:
   notify-github-discussions:
     runs-on: ubuntu-latest
     steps:
-      - uses: ostk0069/github-discussions-notifier@v0.0.2
+      - uses: ostk0069/github-discussions-notifier@v0.0.3
         with:
           SLACK_CHANNEL_ID: ${{secrets.SLACK_CHANNEL_ID}}
           SLACK_BOT_TOKEN: ${{secrets.SLACK_BOT_TOKEN}}
